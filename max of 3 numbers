@@ -1,0 +1,20 @@
+1.max of 3 numbers
+a=int(input("Enter the a number:"))
+b=int(input("Enter the b number:"))
+c=int(input("Enter the c number:"))
+if(a>b and a>c):
+    print("a is max")
+elif(b>a and b>c):
+    print("b is max")
+elif(c>a and c>b):
+    print("c is max")
+else:
+    print("exit")
+
+    2. using predefined method
+a=int(input("Enter the a number:"))
+b=int(input("Enter the b number:"))
+c=int(input("Enter the c number:"))
+print("Maximum:",max(a,b,c))
+
+    
