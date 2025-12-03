@@ -1,0 +1,16 @@
+1.swap 2 numbers with 3 variable
+
+a=int(input("enter the number1:"))
+b=int(input("enter the number2:"))
+print(a,b)
+a,b=b,a
+print(a,b)
+
+or
+a=int(input("enter the number1:"))
+b=int(input("enter the number2:"))
+print(a,b)
+temp=a
+a=b
+b=temp
+print(a,b)
