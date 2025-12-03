@@ -1,0 +1,29 @@
+#get string convert to array and reversed it
+str=("enter the numbers")
+arr=[int[x] for x in str]
+for i in range(len(arr),0,-1):
+    print(arr[i])
+     
+#string
+s=input("Enter the string:")
+rev=s[::-1]
+print(rev)
+     
+#using the predefined method of reversed in list
+s="1234354656"
+arr=list(reversed(s))
+print(arr)
+
+#array reverse
+s=input("Enter the numbers:")
+arr=[int(x) for x in s]
+rev=[]
+for i in range(len(arr)-1,-1,-1):
+    rev.append(arr[i])
+print(rev)
+
+#predefined array reversed
+s=input("Enter the numbers:")
+arr=[int(x) for x in s]
+arr.reverse()
+print(arr)
